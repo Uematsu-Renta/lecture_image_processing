@@ -15,30 +15,30 @@ figure(2)
 IMG = imresize(ORG,0.5); % ‰æ‘œ‚Ìk¬
 IMG2 = imresize(IMG,2,'box'); % ‰æ‘œ‚ÌŠg‘å
 imagesc(IMG2); axis image; % ‰æ‘œ‚Ì•\¦
-title('1/2‚Ék¬‚µ‚Ä2”{‚ÉŠg‘å‚µ‚½‰æ‘œ')
+title('1/2ƒTƒ“ƒvƒŠƒ“ƒO‰æ‘œ')
 
 figure(3)
 IMG = imresize(IMG,0.5); % ‰æ‘œ‚Ìk¬
 IMG2 = imresize(IMG,4,'box'); % ‰æ‘œ‚ÌŠg‘å
 imagesc(IMG2); axis image; % ‰æ‘œ‚Ì•\¦
-title('1/2‚Ék¬‚µ‚Ä4”{‚ÉŠg‘å‚µ‚½‰æ‘œ')
+title('1/4ƒTƒ“ƒvƒŠƒ“ƒO‰æ‘œ')
 
 figure(4)
 IMG = imresize(IMG,0.5); % ‰æ‘œ‚Ìk¬
 IMG2 = imresize(IMG,8,'box'); % ‰æ‘œ‚ÌŠg‘å
 imagesc(IMG2); axis image; % ‰æ‘œ‚Ì•\¦
-title('1/2‚Ék¬‚µ‚Ä8”{‚ÉŠg‘å‚µ‚½‰æ‘œ')
+title('1/8ƒTƒ“ƒvƒŠƒ“ƒO‰æ‘œ')
 
 figure(5)
 IMG = imresize(IMG,0.5); % ‰æ‘œ‚Ìk¬
 IMG2 = imresize(IMG,16,'box'); % ‰æ‘œ‚ÌŠg‘å
 imagesc(IMG2); axis image; % ‰æ‘œ‚Ì•\¦
-title('1/2‚Ék¬‚µ‚Ä16”{‚ÉŠg‘å‚µ‚½‰æ‘œ')
+title('1/16ƒTƒ“ƒvƒŠƒ“ƒO‰æ‘œ')
 
 figure(6)
 IMG = imresize(IMG,0.5); % ‰æ‘œ‚Ìk¬
 IMG2 = imresize(IMG,32,'box'); % ‰æ‘œ‚ÌŠg‘å
 imagesc(IMG2); axis image; % ‰æ‘œ‚Ì•\¦
-title('1/2‚Ék¬‚µ‚Ä32”{‚ÉŠg‘å‚µ‚½‰æ‘œ')
+title('1/32ƒTƒ“ƒvƒŠƒ“ƒO‰æ‘œ')
 
 return
