@@ -36,3 +36,5 @@ end
 figure(4)
 imagesc(IMG); colormap(gray); colorbar;  axis image;
 title('8ŠK’²‰æ‘œ')
+
+return
